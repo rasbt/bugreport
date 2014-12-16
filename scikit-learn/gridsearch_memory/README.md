@@ -6,6 +6,11 @@ System info:  GCC 4.4.7 20120313 (Red Hat 4.4.7-1)] on linux
 
 Note: gc.isenabled() evaluates to `True`
 
+The discussion in scikit-learn's GitHub repository can be found here:
+[https://github.com/scikit-learn/scikit-learn/issues/3973](https://github.com/scikit-learn/scikit-learn/issues/3973)
+
+This repository contains the code to reproduce this issue. The script can be found in [./code/naive_bayes_scripts/bernoulli_gridsearch_1.py](./code/naive_bayes_scripts/bernoulli_gridsearch_1.py).
+
 
 ## scikit's GridSearch and Python in general are not freeing memory
 
